@@ -35,6 +35,6 @@ footer {
     left: 0;
 }
 
-a {
-    color: inherit;
+a, a:visited {
+    color: #6ca7ff;
 }
