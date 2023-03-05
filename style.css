@@ -1,0 +1,35 @@
+/* I'm not gonna explain the CSS syntax. Watch the videos I linked to you in Thor's server. */
+/* Basically, this block tells the browser that the DEFAULT color scheme is #eee as the background, and #181818 as the text color. */
+body {
+    background-color: #eee;
+    color: #181818;
+    padding-left: 15%;
+    padding-right: 15%;
+    text-transform: lowercase;
+}
+
+/* This body reverts the color scheme if the user's browser is set to "Dark Mode" in settings. */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #181818;
+        color: #eee;
+    }
+}
+
+section {
+    padding: 30pt 30pt 15pt 30pt;
+    text-align: center;
+}
+
+p {
+    padding-bottom: 10px;
+}
+
+footer {
+    text-transform: none;
+    text-align: center;
+    padding: 15pt 30pt 30pt 30pt;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
